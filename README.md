@@ -14,7 +14,7 @@ The following layers are used in either OS:
 ### Programming of layers 2-4:
 * Default layer cannot be programmed
 * `FN + R_Ctrl`  (use `L_Ctrl` if `FN` has been reassigned already) -> second LED under space bar is now lit
-* hit `target key`, then: `new content` (can be up to 32 char), then: `PN` (second LED will blink while programming)
+* hit `target key`, then: `new content` (can be up to 32 char), then: `Menu` (second LED will blink while programming)
 * `FN + R_Ctrl` to exit programming -> second LED extinguishes
 * During programming, use the keys as labelled on the keyboard, irrespective of any reassignments
 
@@ -35,10 +35,10 @@ Windows Layout on [keyboard-layout-editor.com](http://www.keyboard-layout-editor
 * `FN + R_Ctrl` to enter programming
 * [Common bindings](#common_bindings)
 * Swap Cmd/Opt keys on both sides of space bar:
-  * L_Cmd: `L_Alt` then: `L_WIN` then: `PN`
-  * L_Option: `L_WIN` then: `L_Alt` then: `PN`
-  * R_CMD: `R_Alt` then: `R_FN` (Win) then: `PN`
-  * R_Option: `R_FN` (Win) then: `R_Alt` then: `PN`
+  * L_Cmd: `L_Alt` then: `L_WIN` then: `Menu`
+  * L_Option: `L_WIN` then: `L_Alt` then: `Menu`
+  * R_CMD: `R_Alt` then: `R_FN` (Win) then: `Menu`
+  * R_Option: `R_FN` (Win) then: `R_Alt` then: `Menu`
 * `FN + R_Ctrl` to exit programming
 
 Resulting programming:
@@ -47,31 +47,31 @@ OSX Layout on [keyboard-layout-editor.com](http://www.keyboard-layout-editor.com
 
 ## <a name="common_bindings"></a>Common key bindings for all OSs
 * CapsLock always as Ctrl:
-  * `CapsLock` then: `L_Ctrl` then: `PN` to confirm
-  * `FN + CapsLock` then: `L_Ctrl` then: `PN` to confirm
+  * `CapsLock` then: `L_Ctrl` then: `Menu` to confirm
+  * `FN + CapsLock` then: `L_Ctrl` then: `Menu` to confirm
 * VIM like HJKL and Page Up/Down:
-  * Left: `FN + H` then: `FN + J` then: `PN`
-  * Down: `FN + J` then: `FN + K` then: `PN`
-  * Up: `FN + K` then: `FN + I` then: `PN`
-  * PgDown: `FN + F` then: `FN + O` then: `PN`
-  * PgUp: `FN + B` then: `FN + U` then: `PN`
-* Home: `FN + I` then: `FN + H` then: `PN`
+  * Left: `FN + H` then: `FN + J` then: `Menu`
+  * Down: `FN + J` then: `FN + K` then: `Menu`
+  * Up: `FN + K` then: `FN + I` then: `Menu`
+  * PgDown: `FN + F` then: `FN + O` then: `Menu`
+  * PgUp: `FN + B` then: `FN + U` then: `Menu`
+* Home: `FN + I` then: `FN + H` then: `Menu`
 * Volume controls:
-  * Mute: `FN + X` then: `FN + /?` then: `PN`
-  * Vol-: `FN + C` then: `FN + ,<` then: `PN`
-  * Vol+: `FN + V` then: `FN + .>` then: `PN`
+  * Mute: `FN + X` then: `FN + /?` then: `Menu`
+  * Vol-: `FN + C` then: `FN + ,<` then: `Menu`
+  * Vol+: `FN + V` then: `FN + .>` then: `Menu`
 
 ## <a name="Move_FN"></a>Move FN to L_Ctrl
 HJKL as cursor keys are more ergonomical to reach by moving the FN to the left Ctrl key location:
 * Switch to Layer 2 (or 3, 4); this programming is per layer
 * Unplug keyboard
 * DIP switch 4 to ON
-* Plugin keyboard again, then press `FN` then: `L_Ctrl` then: `PN` then: `PN` (to leave it in its original location)
+* Plugin keyboard again, then press `FN` then: `L_Ctrl` then: `Menu` then: `Menu` (to leave it in its original location)
 * DIP switch 4 back to OFF (no need to unplug)
 
 ## Sources
 The how-to for these mappings is from 2 reddit threads:
 * [r/mk: HowTo program pok3r](http://www.reddit.com/r/MechanicalKeyboards/comments/35uy60/guide_howto_program_your_pok3r_programming_layers/)
 * [r/mk: HowTo media controls pok3r](http://www.reddit.com/r/MechanicalKeyboards/comments/37j3sx/guide_modification_pok3r_media_volume_controls_hw/)
- 
+
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
